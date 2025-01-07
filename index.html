@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>REAL ESTATE</title>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <!-- Nav bar -->
+
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between item-center py-4 px-6">
+            <h1 class="text-2xl font-bold text-pink-600">AI REAL ESTATE</h1>
+            <nav>
+                <ul class="flex space-x-6 hidden md:flex">
+                    <li><a href="" class="hover:text-pink-600 hover:underline">Home</a></li>
+                    <li><a href="" class="hover:text-pink-600 hover:underline">About</a></li>
+                    <li><a href="" class="hover:text-pink-600 hover:underline">Properties</a></li>
+                    <li><a href="" class="hover:text-pink-600 hover:underline">Contact</a></li>
+                </ul>
+                <button id="menu-btn" class=" text-pink-600 text-2xl md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+
+
+        <!-- Mobile menu -->
+        <ul id="mobile-menu" class="hidden bg-white shadow-md flex-col space-y-4 p-y-4 p-x-6">
+            <li><a href="" class="hover:text-pink-600 hover:underline">Home</a></li>
+            <li><a href="" class="hover:text-pink-600 hover:underline">About</a></li>
+            <li><a href="" class="hover:text-pink-600 hover:underline">Properties</a></li>
+            <li><a href="" class="hover:text-pink-600 hover:underline">Contact</a></li>
+        </ul>
+
+    </header>
+
+    <!-- Hero section -->
+    <section class="bg-gradient-to-r from-rose-500 via-purple-500 to-pink-500 text-white py-20 text-center">
+        <h2 class="text-4xl font-bold mb-4">Find Your dream Home</h2>
+        <p class="text-xl mb-6 ">Discover the best properties at the best location</p>
+        <a href="" class="bg-white text-pink-600 py-2 px-6 rounded-full hover:bg-gray-100 hover:ring">Browse
+            Properties</a>
+    </section>
+
+    <!-- About Section -->
+
+<section class="py-16 px-4">
+    <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">About Us</h3>
+        <p class="text-lg text-gray-600 mx-auto max-w-2xl">At AI Real Estate, we are commited to helping you find the perfect property. With years of experience and a wide selection of properties, your drean home is within reach.</p>
+    </div>
+</section>
+
+<!-- Property Section -->
+ <section class="bg-gray-100 py-16-px-4">
+    <div class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-6 text-center">Our Properties</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="card bg-white shadow-md rounded-lg overflow-hidden ">
+                <img class="w-full" src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" >
+                <div class="p-4">
+                    <h4 class="text-lg font-bold mb-2">Luxury Villa</h4>
+                    <p class="text-gray-600">$850,000 Located in New York</p>
+                </div>
+            </div>
+
+
+            <div class="card bg-white shadow-md rounded-lg overflow-hidden ">
+                <img class="w-full" src="https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" >
+                <div class="p-4">
+                    <h4 class="text-lg font-bold mb-2">Luxury Villa</h4>
+                    <p class="text-gray-600">$1,000,000 Located in Miami</p>
+                </div>
+            </div>
+
+
+            <div class="card bg-white shadow-md rounded-lg overflow-hidden ">
+                <img class="w-full" src="https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" >
+                <div class="p-4">
+                    <h4 class="text-lg font-bold mb-2">Luxury Villa</h4>
+                    <p class="text-gray-600">$600,000 Located in Canada</p>
+                </div>
+            </div>
+
+            <div class="card bg-white shadow-md rounded-lg overflow-hidden ">
+                <img class="w-full" src="https://images.pexels.com/photos/1475938/pexels-photo-1475938.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" >
+                <div class="p-4">
+                    <h4 class="text-lg font-bold mb-2">Luxury Villa</h4>
+                    <p class="text-gray-600">$700,000 Located in Texas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<!-- Contact Section -->
+
+<section class="py-16 px-4">
+    <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+        <p class="text-lg text-gray-600 mb-6">Have any questions? We are here to help. Reach out to us today.</p>
+        <a href="mailto:funmilayoibj@gmail.com" class="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-600 hover:ring">Get in touch</a>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="bg-pink-600 text-white py-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2025 AI REAL ESTATE. All right reserved</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn')
+        const mobileMenu = document.getElementById('mobile-menu')
+
+
+        menuBtn.addEventListener('click', () => { mobileMenu.classList.toggle('hidden') })
+    </script>
+
+
+</body>
+
+</html>
